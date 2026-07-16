@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Veloura Collection</title>
+    <!-- Single Page Apps for GitHub Pages (https://github.com/rafgraph/spa-github-pages)
+         GitHub Pages serves this file for any path that has no matching file.
+         It redirects /repo/some/path to /repo/?/some/path, which index.html
+         decodes back into the clean URL before the router runs.
+
+         pathSegmentsToKeep:
+           1 for project pages  (https://user.github.io/repo-name/)
+           0 for a user site or custom domain (https://example.com/) -->
+    <script>
+        var pathSegmentsToKeep = 1;
+
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+    </script>
+</head>
+<body></body>
+</html>

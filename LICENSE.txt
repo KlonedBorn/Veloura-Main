@@ -1,0 +1,25 @@
+Copyright (c) 2026 Veloura. All rights reserved.
+
+This repository contains a static showcase website produced for a client
+("Veloura"). All content — including but not limited to text, images,
+logos, brand assets, design documentation, and source code — is the
+property of the client and/or the developer, as agreed between the
+parties.
+
+No part of this repository may be copied, modified, distributed,
+published, or used for any purpose without prior written permission
+from the copyright holder.
+
+Third-party assets (fonts, icons, libraries), if any, remain subject to
+their respective licenses. See individual asset directories for details.
+
+THE SOFTWARE AND CONTENT ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE
+OR CONTENT.
+
+---
+NOTE TO DEVELOPER: Placeholder license. Replace client name, year, and
+terms per the actual client agreement before publishing.

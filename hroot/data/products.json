@@ -1,0 +1,225 @@
+{
+  "brand": "Veloura Collection",
+  "generated": "2026-07-15",
+  "imageBasePath": "assets/images/Veloura/",
+  "logos": [
+    {
+      "id": "veloura-logo-full",
+      "file": "veloura-logo-full.png",
+      "path": "assets/images/veloura-logo-full.png",
+      "description": "Veloura Collection wordmark logo — VC monogram with sparkle accents and brand name text on dark background."
+    },
+    {
+      "id": "veloura-logo-mark",
+      "file": "veloura-logo-mark.png",
+      "path": "assets/images/veloura-logo-mark.png",
+      "description": "Veloura Collection logo mark only — VC monogram with sparkle accents, no text."
+    }
+  ],
+  "products": [
+    {
+      "id": "tabby-26-quilted-black-gold",
+      "file": "tabby-26-quilted-black-gold.png",
+      "path": "assets/images/Veloura/tabby-26-quilted-black-gold.png",
+      "name": "Coach Tabby Shoulder Bag 26 With Pillow Quilting",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Black / Brass",
+      "material": "Quilted nappa leather",
+      "description": "Iconic Tabby 26 flap shoulder bag in plush diagonal-quilted black nappa leather with sculpted brass signature C closure and leather-woven chain strap. Wear on the shoulder or crossbody.",
+      "tags": ["quilted", "chain strap", "flap bag", "evening", "bestseller"]
+    },
+    {
+      "id": "tabby-26-quilted-wine",
+      "file": "tabby-26-quilted-wine.png",
+      "path": "assets/images/Veloura/tabby-26-quilted-wine.png",
+      "name": "Coach Tabby Shoulder Bag 26 With Pillow Quilting",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Wine / Brass",
+      "material": "Quilted nappa leather",
+      "description": "Tabby 26 flap shoulder bag in deep wine quilted leather with brass C-clasp hardware and convertible leather-woven chain strap. Rich jewel tone for fall styling.",
+      "tags": ["quilted", "chain strap", "flap bag", "burgundy"]
+    },
+    {
+      "id": "tabby-26-quilted-matte-black",
+      "file": "tabby-26-quilted-matte-black.png",
+      "path": "assets/images/Veloura/tabby-26-quilted-matte-black.png",
+      "name": "Coach Tabby Shoulder Bag 26 With Pillow Quilting",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Black / Pewter (all-black)",
+      "material": "Quilted nappa leather",
+      "description": "All-black edition of the quilted Tabby 26 with blacked-out pewter hardware and tonal chain strap for a monochrome, edgier look.",
+      "tags": ["quilted", "chain strap", "flap bag", "monochrome"]
+    },
+    {
+      "id": "soft-tabby-shoulder-chambray",
+      "file": "soft-tabby-shoulder-chambray.png",
+      "path": "assets/images/Veloura/soft-tabby-shoulder-chambray.png",
+      "name": "Coach Soft Tabby Shoulder Bag in Signature Jacquard",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Pale Blue / Chalk",
+      "material": "Signature C jacquard fabric with leather trim",
+      "description": "Soft Tabby flap shoulder bag in airy pale-blue signature jacquard with silver C-buckle closure, top handle strap and adjustable crossbody strap.",
+      "tags": ["signature jacquard", "crossbody strap", "pastel", "spring"]
+    },
+    {
+      "id": "cargo-tote-denim",
+      "file": "cargo-tote-denim.png",
+      "path": "assets/images/Veloura/cargo-tote-denim.png",
+      "name": "Coach Cargo Tote in Denim",
+      "brand": "Coach",
+      "category": "tote",
+      "color": "Indigo Denim",
+      "material": "Denim with contrast stitching",
+      "description": "Structured Cargo Tote in washed indigo denim with embroidered Coach New York script, brass turnlock closure, double top handles and tan leather hangtag.",
+      "tags": ["tote", "denim", "carryall", "embroidered logo"]
+    },
+    {
+      "id": "juno-mini-hobo-denim",
+      "file": "juno-mini-hobo-denim.png",
+      "path": "assets/images/Veloura/juno-mini-hobo-denim.png",
+      "name": "Coach Juno Mini Hobo in Signature Denim",
+      "brand": "Coach",
+      "category": "mini-bag",
+      "color": "Indigo Signature Denim",
+      "material": "Signature C denim jacquard with leather trim",
+      "description": "Crescent-shaped mini hobo in signature denim jacquard with polished clip-buckle handle and dangling silver C chain charm. Compact hand-held silhouette.",
+      "tags": ["mini bag", "hobo", "denim", "charm", "trend"]
+    },
+    {
+      "id": "juno-mini-hobo-violet",
+      "file": "juno-mini-hobo-violet.png",
+      "path": "assets/images/Veloura/juno-mini-hobo-violet.png",
+      "name": "Coach Juno Hobo in Leather",
+      "brand": "Coach",
+      "category": "mini-bag",
+      "color": "Soft Purple / Lilac",
+      "material": "Smooth leather",
+      "description": "Juno crescent hobo in smooth lilac leather with silver clip-buckle handle and C chain charm. Playful pastel pop for the collection.",
+      "tags": ["hobo", "pastel", "charm", "leather"]
+    },
+    {
+      "id": "charter-crossbody-olive",
+      "file": "charter-crossbody-olive.png",
+      "path": "assets/images/Veloura/charter-crossbody-olive.png",
+      "name": "Coach Charter Crossbody 24 in Signature Jacquard",
+      "brand": "Coach",
+      "category": "crossbody",
+      "color": "Olive Drab",
+      "material": "Signature C jacquard fabric with leather trim",
+      "description": "Slim camera-style crossbody in olive signature jacquard with double zip compartments, matte black hardware and tonal leather hangtag.",
+      "tags": ["crossbody", "camera bag", "unisex", "signature jacquard"]
+    },
+    {
+      "id": "charter-crossbody-navy",
+      "file": "charter-crossbody-navy.png",
+      "path": "assets/images/Veloura/charter-crossbody-navy.png",
+      "name": "Coach Charter Crossbody 24 in Signature Jacquard",
+      "brand": "Coach",
+      "category": "crossbody",
+      "color": "Midnight Navy",
+      "material": "Signature C jacquard fabric with leather trim",
+      "description": "Camera-style double-zip crossbody in midnight navy signature jacquard with tonal navy leather trim and hangtag. Streamlined everyday carry.",
+      "tags": ["crossbody", "camera bag", "unisex", "navy"]
+    },
+    {
+      "id": "mini-sierra-satchel-cherry",
+      "file": "mini-sierra-satchel-cherry.png",
+      "path": "assets/images/Veloura/mini-sierra-satchel-cherry.png",
+      "name": "Coach Mini Sierra Satchel in Signature Canvas with Cherry Charm",
+      "brand": "Coach",
+      "category": "satchel",
+      "color": "Light Khaki / Chalk",
+      "material": "Signature coated canvas with leather trim",
+      "description": "Dome-shaped mini satchel in light khaki signature canvas with chalk leather trim, double rolled handles, gold hardware and glossy red cherry bag charm.",
+      "tags": ["satchel", "mini bag", "cherry charm", "top handle", "cute"]
+    },
+    {
+      "id": "nolita-19-heather-grey",
+      "file": "nolita-19-heather-grey.png",
+      "path": "assets/images/Veloura/nolita-19-heather-grey.png",
+      "name": "Coach Nolita 19 in Signature Canvas",
+      "brand": "Coach",
+      "category": "pouch",
+      "color": "Heather Grey",
+      "material": "Signature coated canvas",
+      "description": "Compact barrel-shaped Nolita 19 pouch in heather grey signature coated canvas with top zip closure and tonal leather hangtag. Carry as clutch or add a strap.",
+      "tags": ["pouch", "clutch", "compact", "signature canvas"]
+    },
+    {
+      "id": "signature-hobo-khaki-saddle",
+      "file": "signature-hobo-khaki-saddle.png",
+      "path": "assets/images/Veloura/signature-hobo-khaki-saddle.png",
+      "name": "Coach Hobo Shoulder Bag in Signature Canvas",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Khaki / Saddle",
+      "material": "Signature coated canvas with leather strap",
+      "description": "Classic trapezoid hobo shoulder bag in khaki signature canvas with saddle-tan leather strap, gold Coach New York plaque and leather hangtag.",
+      "tags": ["hobo", "shoulder bag", "classic", "signature canvas"]
+    },
+    {
+      "id": "signature-hobo-brown-black",
+      "file": "signature-hobo-brown-black.png",
+      "path": "assets/images/Veloura/signature-hobo-brown-black.png",
+      "name": "Coach Hobo Shoulder Bag in Signature Canvas",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Brown / Black",
+      "material": "Signature coated canvas with leather strap",
+      "description": "Trapezoid hobo shoulder bag in dark brown signature canvas with black leather strap and trim, gold Coach New York plaque. Timeless neutral colorway.",
+      "tags": ["hobo", "shoulder bag", "classic", "brown"]
+    },
+    {
+      "id": "studded-flap-crossbody-black",
+      "file": "studded-flap-crossbody-black.png",
+      "path": "assets/images/Veloura/studded-flap-crossbody-black.png",
+      "name": "Coach Studded Flap Crossbody",
+      "brand": "Coach",
+      "category": "crossbody",
+      "color": "Black / Gold Studs",
+      "material": "Pebbled leather with brass rivets",
+      "description": "Flap crossbody in black pebbled leather trimmed with mixed brass dome studs, detachable top-handle strap and gold chain crossbody strap.",
+      "tags": ["studded", "flap bag", "chain strap", "convertible", "evening"]
+    },
+    {
+      "id": "studded-flap-crossbody-chalk",
+      "file": "studded-flap-crossbody-chalk.png",
+      "path": "assets/images/Veloura/studded-flap-crossbody-chalk.png",
+      "name": "Coach Studded Flap Crossbody",
+      "brand": "Coach",
+      "category": "crossbody",
+      "color": "Chalk / Gold Studs",
+      "material": "Pebbled leather with brass rivets",
+      "description": "Flap crossbody in chalk-white pebbled leather with brass dome stud trim, short shoulder strap and gold chain strap. Bridal-ready ivory finish.",
+      "tags": ["studded", "flap bag", "chain strap", "white", "party"]
+    },
+    {
+      "id": "teri-shoulder-brown",
+      "file": "teri-shoulder-brown.png",
+      "path": "assets/images/Veloura/teri-shoulder-brown.png",
+      "name": "Coach Teri Shoulder Bag in Signature Canvas",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Brown / Gold",
+      "material": "Signature print coated canvas with leather trim",
+      "description": "Sleek Teri shoulder bag in brown signature-print canvas with dark brown leather trim, gold Coach New York plaque, top zip and decorative charm pull.",
+      "tags": ["shoulder bag", "baguette", "90s", "signature print"]
+    },
+    {
+      "id": "teri-shoulder-chalk",
+      "file": "teri-shoulder-chalk.png",
+      "path": "assets/images/Veloura/teri-shoulder-chalk.png",
+      "name": "Coach Teri Shoulder Bag in Signature Jacquard",
+      "brand": "Coach",
+      "category": "shoulder-bag",
+      "color": "Chalk / Dove Grey",
+      "material": "Signature C jacquard fabric with leather trim",
+      "description": "Teri shoulder bag in chalk signature jacquard with dove-grey leather trim, silver hardware and detachable adjustable crossbody strap.",
+      "tags": ["shoulder bag", "crossbody strap", "neutral", "silver hardware"]
+    }
+  ]
+}
