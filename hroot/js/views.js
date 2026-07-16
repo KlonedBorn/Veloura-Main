@@ -73,7 +73,7 @@ const Views = (() => {
                 <div class="container">
                     <div class="local-grid">
                         <div class="local-image-wrap">
-                            <img class="local-image local-image-logo" src="assets/images/veloura-logo-full.png" alt="Veloura Collection logo" loading="lazy">
+                            <img class="local-image local-image-logo" src="hroot/assets/images/veloura-logo-full.png" alt="Veloura Collection logo" loading="lazy">
                         </div>
                         <div class="local-content">
                             <span class="local-tag">📍 Visit Our Physical Store</span>

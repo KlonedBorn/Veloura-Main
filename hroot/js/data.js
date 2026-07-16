@@ -8,7 +8,12 @@
    ============================================================================ */
 
 const WHATSAPP_PHONE = "12687739972";
-const CATALOG_URL = "data/products.json";
+
+// Site entry (index.html/404.html) lives at the repo root; all other site
+// files (css/js/data/assets) stay under hroot/. URLs are relative to the
+// <base> tag, i.e. the deploy root.
+const ASSET_ROOT = "hroot/";
+const CATALOG_URL = ASSET_ROOT + "data/products.json";
 
 const DEFAULT_SETTINGS = {
     deliveryFee: 20,
@@ -63,7 +68,7 @@ function transformCatalog(json) {
             group: mainGroupFor(p.category),
             categoryLabel: [p.brand, prettyCategory(p.category)].filter(Boolean).join(" "),
             price: typeof p.price === "number" ? p.price : null,
-            image: p.path,
+            image: ASSET_ROOT + p.path,
             description: p.description || "",
             color: p.color || "",
             sizes: Array.isArray(p.sizes) && p.sizes.length ? p.sizes : ["One Size"],

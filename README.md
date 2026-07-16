@@ -12,10 +12,10 @@ Static showcase website for **Veloura Collection**, a chic boutique at Heritage 
 ## Project Structure
 
 ```
-Veloura/
-├── hroot/                  # Deployed site root (published by GitHub Pages)
-│   ├── index.html          # SPA shell — header, footer, #app mount point
-│   ├── 404.html            # GitHub Pages SPA redirect (clean URL support)
+Veloura/                    # Repo root = deployed site root
+├── index.html              # SPA shell — header, footer, #app mount point
+├── 404.html                # GitHub Pages SPA redirect (clean URL support)
+├── hroot/                  # Site assets (css/js/data/images)
 │   ├── css/styles.css      # Full theme per context/ui-frontend/THEME.md
 │   ├── data/
 │   │   └── products.json   # Client-maintained catalog (source of truth)
@@ -31,12 +31,12 @@ Veloura/
 │       ├── fonts/          # Self-hosted webfonts (currently Google Fonts CDN)
 │       └── icons/          # Favicons
 ├── context/                # Client reference material — local only, gitignored
-│   ├── prototype/          # Original single-file HTML draft (superseded by hroot/)
+│   ├── prototype/          # Original single-file HTML draft (superseded)
 │   ├── brand-identity/     # Brand overview, products, UX strategy, art direction
 │   ├── ui-frontend/        # Component, layout, navigation, theme specs
 │   ├── blueprints/         # Page-by-page storefront blueprints (.docx)
 │   └── notes/              # Raw client/meeting notes and screenshots
-├── .github/workflows/      # Pages deploy workflow (publishes hroot/)
+├── .github/workflows/      # Pages deploy workflow (publishes repo root)
 ├── LICENSE.txt
 └── README.md
 ```
@@ -58,23 +58,22 @@ Clean URLs via the [spa-github-pages](https://github.com/rafgraph/spa-github-pag
 
 ## Local Development
 
-No build step. Serve the `hroot/` folder:
+No build step. Serve the repo root:
 
 ```bash
-cd hroot
 python -m http.server 8000
-# or: npx serve hroot
+# or: npx serve .
 ```
 
-Visit `http://localhost:8000`. Note: refreshing on a deep link (e.g. `/browse`) only works on GitHub Pages, where `404.html` handles the redirect — locally, start from `/` and navigate in-app (or use a server with SPA fallback, e.g. `npx serve -s hroot`).
+Visit `http://localhost:8000`. Note: refreshing on a deep link (e.g. `/browse`) only works on GitHub Pages, where `404.html` handles the redirect — locally, start from `/` and navigate in-app (or use a server with SPA fallback, e.g. `npx serve -s .`). The local server will also expose `context/` — that folder is gitignored and never reaches GitHub.
 
 ## Deploying to GitHub Pages
 
-1. Push the repository to GitHub (branch `main`).
+1. Push the repository to GitHub (`main` + `demo` branches).
 2. Repo **Settings → Pages** → Source: **GitHub Actions**.
-3. The included workflow (`.github/workflows/deploy-pages.yml`) publishes `hroot/` on every push to `main` touching `hroot/`.
+3. The included workflow (`.github/workflows/deploy-pages.yml`) publishes the repo root on every push to **`demo`** touching site files.
 4. Site publishes at `https://<username>.github.io/<repo-name>/`. The router auto-detects the repo base path — no config needed.
-5. If deploying to a **custom domain or user site** (served at `/`), set `pathSegmentsToKeep = 0` in `hroot/404.html`.
+5. If deploying to a **custom domain or user site** (served at `/`), set `pathSegmentsToKeep = 0` in `404.html`.
 
 ## Customization Checklist
 

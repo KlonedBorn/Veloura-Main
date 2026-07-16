@@ -52,11 +52,19 @@ const Store = (() => {
     }
 
     function getProducts() {
-        // Backfill `group` for catalogs seeded before main-category grouping
-        // existed (same catalog version, so no automatic re-seed).
-        return read(KEYS.products, []).map(p =>
-            p.group ? p : { ...p, group: mainGroupFor(p.category) }
-        );
+        // Backfill fields for catalogs seeded before schema tweaks that don't
+        // bump the catalog version: `group` (main-category grouping) and the
+        // hroot/ image prefix (site entry moved to the repo root).
+        return read(KEYS.products, []).map(p => {
+            if (p.group && (!p.image || p.image.startsWith(ASSET_ROOT) || /^https?:/.test(p.image))) return p;
+            return {
+                ...p,
+                group: p.group || mainGroupFor(p.category),
+                image: p.image && !p.image.startsWith(ASSET_ROOT) && !/^https?:/.test(p.image)
+                    ? ASSET_ROOT + p.image
+                    : p.image
+            };
+        });
     }
 
     function getProduct(id) {

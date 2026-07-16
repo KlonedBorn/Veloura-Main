@@ -4,6 +4,8 @@ on:
   push:
     branches: [demo]
     paths:
+      - "index.html"
+      - "404.html"
       - "hroot/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
@@ -28,6 +30,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: hroot
+          path: .
       - id: deployment
         uses: actions/deploy-pages@v4
